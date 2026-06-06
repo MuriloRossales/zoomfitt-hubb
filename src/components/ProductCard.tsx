@@ -105,7 +105,7 @@ const ProductCard = ({ name, category, price, image, gallery, isNew, colors }: P
             <p className="text-2xl font-semibold text-primary mb-6">{price}</p>
             
            <div className="space-y-4 mb-8 text-muted-foreground">
-  {category.toLowerCase().includes("boné") || category.toLowerCase().includes("bone") ? (
+  {category === "Boné" || category === "Bonés" || category === "bone" ? (
     <>
       <p>• Material de alta qualidade e resistência.</p>
       <p>• Aba curva com ajuste confortável na parte traseira.</p>

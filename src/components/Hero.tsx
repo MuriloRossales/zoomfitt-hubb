@@ -24,10 +24,17 @@ const Hero = () => {
         
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
           Descubra nossa coleção exclusiva de produtos que combinam 
-          estilo, conforto e qualidade incomparável.
+          estilo, conforto e quality incomparável.
         </p>
         
-        <div className="animate-slide-up" style={{ animationDelay: "0.4s" }}>
+        {/* Bloco do Botão e da Seta Centralizados */}
+        <div className="flex flex-col items-center justify-center animate-slide-up" style={{ animationDelay: "0.4s" }}>
+          
+          {/* A Seta agora fica aqui, logo acima do botão, pulando centralizada */}
+          <div className="animate-bounce mb-3">
+            <ArrowDown className="w-6 h-6 text-primary-foreground/80" />
+          </div>
+
           <Button 
             size="lg"
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-medium px-8 py-6 text-lg rounded-full shadow-elevated"
@@ -37,9 +44,6 @@ const Hero = () => {
           </Button>
         </div>
         
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-primary-foreground/60" />
-        </div>
       </div>
     </section>
   );
