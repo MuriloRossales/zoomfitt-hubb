@@ -13,7 +13,7 @@ const Header = () => {
             <h1 className="font-display text-xl font-semibold text-foreground">
               ZoomFitt
             </h1>
-            <p className="text-xs text-muted-foreground">Estilo que encaixa com você</p>
+            <p className="text-xs text-muted-foreground">Se mova em Zoom. Viva Fitt.</p>
             </div>
           </div>
           
