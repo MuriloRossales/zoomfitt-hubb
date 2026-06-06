@@ -171,8 +171,8 @@ export const products = [
     name: "ZoomFitt Speed Boné - Preto (Five Panel)",
     category: "Esportivo",
     price: "R$ 159,90",
-    image: esportivoBonePreto,
-    gallery: [esportivoBonePreto, esportivoBonePretoTrás],
+    image: BonePreto,
+    gallery: [BonePreto, BonePretoTrás],
     colors: ["#000000"]
   },
 ];
