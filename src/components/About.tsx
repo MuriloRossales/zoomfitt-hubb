@@ -3,8 +3,8 @@ import { Eye, Award, Heart, Sparkles } from "lucide-react";
 const features = [
   {
     icon: Eye,
-    title: "Qualidade Óptica",
-    description: "Lentes de alta precisão com tratamentos premium para sua visão."
+    title: "Qualidade",
+    description: "Produtos com excelente qualidade, durabilidade e conforto para acompanhar seu ritmo."
   },
   {
     icon: Award,
@@ -14,7 +14,7 @@ const features = [
   {
     icon: Heart,
     title: "Atendimento", 
-    description: "Equipe especializada pronta para encontrar o óculos ideal."
+    description: "Equipe especializada pronta para encontrar seu produto ideal."
   },
   {
     icon: Sparkles,
@@ -37,12 +37,11 @@ const About = () => {
               Tradição e Inovação em Cada Detalhe
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Quem Somos
 A ZoomFitt nasceu para quem não aceita o comum.
 
-Somos uma marca focada em unir performance, estilo e proteção em um único acessório. Acreditamos que um óculos não é apenas um detalhe, ele é presença, atitude e confiança.
+Somos uma marca focada em unir performance, estilo e proteção em acessórioS.
 
-Criamos modelos esportivos e casuais pensados para acompanhar seu ritmo, seja no treino, na corrida, no pedal ou no dia a dia. Todos com proteção UV, conforto e design marcante.
+Nossos modelos esportivos e casuais são pensados para acompanhar seu ritmo, seja no treino, na corrida, no pedal ou no dia a dia. Todos pensados em conforto e design marcante.
 
 Nosso compromisso é entregar qualidade, identidade e uma experiência que vá além da compra.
 

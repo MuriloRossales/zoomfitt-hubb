@@ -104,11 +104,21 @@ const ProductCard = ({ name, category, price, image, gallery, isNew, colors }: P
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">{name}</h2>
             <p className="text-2xl font-semibold text-primary mb-6">{price}</p>
             
-            <div className="space-y-4 mb-8 text-muted-foreground">
-              <p>• Proteção UV400 contra raios solares.</p>
-              <p>• Lentes de policarbonato resistentes.</p>
-              <p>• Acompanha estojo e flanela da ZoomFitt.</p>
-            </div>
+           <div className="space-y-4 mb-8 text-muted-foreground">
+  {category.toLowerCase().includes("boné") || category.toLowerCase().includes("bone") ? (
+    <>
+      <p>• Material de alta qualidade e resistência.</p>
+      <p>• Aba curva com ajuste confortável na parte traseira.</p>
+      <p>• Perfeito para treinos e uso no dia a dia.</p>
+    </>
+  ) : (
+    <>
+      <p>• Proteção UV400 contra raios solares.</p>
+      <p>• Lentes de policarbonato resistentes.</p>
+      <p>• Acompanha estojo e flanela da ZoomFitt.</p>
+    </>
+  )}
+</div>
 
             <a 
                 href="https://ig.me/m/zoomfitt"
