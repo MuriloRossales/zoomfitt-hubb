@@ -107,8 +107,8 @@ const ProductCard = ({ name, category, price, image, gallery, isNew, colors }: P
            <div className="space-y-4 mb-8 text-muted-foreground">
   {name.toLowerCase().includes("boné") || name.toLowerCase().includes("bone") ? (
     <>
-      <p>• Material de alta qualidade e resistência.</p>
-      <p>• Aba curva com ajuste confortável na parte traseira.</p>
+      <p>• Material de alta qualidade, resistência e de secagem rapida.</p>
+      <p>• Five panel com ajuste confortável na parte traseira.</p>
       <p>• Perfeito para treinos e uso no dia a dia.</p>
     </>
   ) : (
