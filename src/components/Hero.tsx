@@ -24,7 +24,7 @@ const Hero = () => {
         
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
           Descubra nossa coleção exclusiva de produtos que combinam 
-          estilo, conforto e quality incomparável.
+          estilo, conforto e qualidade incomparável.
         </p>
         
         {/* Bloco do Botão e da Seta Centralizados */}
